@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#01BCA7</color>
+    <color name="purple_700">#01BCA7</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_2">#FFFFFF</color>
+    <color name="green">#01BCA7</color>
+    <color name="abu">#CACCCF</color>
+    <color name="bg_trasparant">#14009688</color>
+    <color name="abu_abu">#1F030303</color>
+    <color name="abu_box_chat">#14030303</color>
+    <color name="red">#FF4143</color>
+
+</resources>

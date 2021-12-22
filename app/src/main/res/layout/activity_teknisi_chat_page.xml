@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeknisiChatPageActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/teknisi_chat_page_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="12dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_backspace" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ava_profil" />
+
+            <RelativeLayout
+                android:layout_width="12dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/teknisi_name"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teknisi_chat_page_toolbar"
+        tools:ignore="UselessLeaf">
+
+        <LinearLayout
+            android:id="@+id/chat_teknisi_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_rectangle_box_chat_teknisi_green"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="12sp"
+                android:text="@string/chat_teknisi_content_1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chat_user_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="32dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/shape_rectangle_box_chat_user_abu_abu"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="12sp"
+                android:text="@string/chat_user_content_1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chat_teknisi_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="32dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/shape_rectangle_box_chat_teknisi_green"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="12sp"
+                android:text="@string/chat_teknisi_content_2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/chat_user_row_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="32dp"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/shape_rectangle_box_chat_user_abu_abu"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="12sp"
+                android:text="@string/chat_user_content_2"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints,UselessLeaf">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:drawableEnd="@drawable/ic_send_teknisi_chat_page"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/ic_plus_teknisi_chat_page"
+                android:padding="12dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/shape_rectangle_abu"
+                android:clickable="true"
+                android:focusable="true"
+                android:hint="@string/teknisi_chat_page_btn_title"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

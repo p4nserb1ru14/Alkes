@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/home"
+        android:id="@+id/nav_home"
+        android:iconTint="@color/green"
+        android:icon="@drawable/ic_category"
+        tools:ignore="UnusedAttribute" />
+    <item android:title="@string/service"
+        android:id="@+id/nav_service"
+        android:icon="@drawable/ic_send"
+        android:iconTint="@color/green"
+        tools:ignore="UnusedAttribute" />
+    <item android:title="@string/order"
+        android:id="@+id/nav_pesananmu"
+        android:icon="@drawable/ic_document"
+        android:iconTint="@color/green"
+        tools:ignore="UnusedAttribute" />
+</menu>

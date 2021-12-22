@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+    <!--Navigasi Bar-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/home_page_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ava_home" />
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+
+            <ImageView
+                android:id="@+id/login_home_chat"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_chat" />
+
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+            <!--splash-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="216dp"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="MissingConstraints">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tab_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="12dp"
+                        app:tabBackground="@drawable/tab_selector"
+                        app:tabGravity="center" />
+
+                </androidx.viewpager.widget.ViewPager>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/intro_page_titie1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/dashboard_page_des1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/intro_page_titie2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/dashboard_page_des2"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <!--Card Menu-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <!--Menu 1-->
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_stethoscope"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_stethoscope" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_stethocsope_title"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf" />
+
+                    <!--Menu 2-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_glucometer"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_glucometer" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_glucometer_title"
+                            android:textAlignment="center"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf" />
+                    <!--Menu 3-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_unit_dental"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_unit_dental" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_unit_dental_title"
+                            android:textAlignment="center"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf" />
+                    <!--Menu 4-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_tensiometer"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_tensiometer" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_tensiometer_title"
+                            android:textAlignment="center"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <!--Menu 5-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_microscope"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_microscope" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_microscope_title"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf" />
+                    <!--Menu 6-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_wheelchair"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_wheelchair" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_wheelchair_title"
+                            android:textAlignment="center"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf" />
+                    <!--Menu 7-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_stretcher"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_stretcher" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_strecther_title"
+                            android:textAlignment="center"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessLeaf" />
+                    <!--Menu 8-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/login_home_menu_lifeline"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_oval_circle_menu"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/app_name"
+                                android:cropToPadding="true"
+                                android:src="@drawable/ic_lifeline" />
+                        </LinearLayout>
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/login_home_lifeline_title"
+                            android:textAlignment="center"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--Swap-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="12dp"
+                tools:ignore="UselessLeaf">
+
+                <TextView
+                    android:id="@+id/login_home_menu_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/dashboard_page_des3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/login_home_page_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/dashboard_page_des4"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <!--Card produk-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <!--Card produk 1-->
+                    <ImageView
+                        android:id="@+id/card_produk_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="true"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_login_home_info" />
+
+                    <!--Card produk 2-->
+                    <ImageView
+                        android:id="@+id/card_produk_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="true"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_login_home_pcr_swab" />
+
+                    <!--Card produk 3-->
+                    <ImageView
+                        android:id="@+id/card_produk_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:focusable="true"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_login_home_rapid_tes" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

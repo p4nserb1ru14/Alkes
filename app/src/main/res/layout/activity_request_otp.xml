@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestOtpActivity">
+
+    <TextView
+        android:id="@+id/request_otp_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/request_otp_verif_titile"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/request_otp_number_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center_horizontal|bottom"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/request_otp_number_titile"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_otp_title"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|bottom"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/request_otp_number2_titile"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_otp_number_title"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/request_otp_number_title_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_otp_number_title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/row_request_otp_number1"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/shape_oval_circle"
+            android:clickable="true"
+            android:digits="0123456789"
+            android:focusable="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:nextFocusDown="@+id/row_request_otp_number2"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/row_request_otp_number2"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/shape_oval_circle"
+            android:clickable="true"
+            android:digits="0123456789"
+            android:focusable="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:nextFocusDown="@+id/request_otp_number3"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/row_request_otp_number3"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/shape_oval_circle"
+            android:clickable="true"
+            android:digits="0123456789"
+            android:focusable="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:nextFocusDown="@+id/row_request_otp_number4"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/row_request_otp_number4"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/shape_oval_circle"
+            android:clickable="true"
+            android:digits="0123456789"
+            android:focusable="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:nextFocusDown="@+id/row_request_otp_number5"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/row_request_otp_number5"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/shape_oval_circle"
+            android:clickable="true"
+            android:digits="0123456789"
+            android:focusable="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:nextFocusDown="@+id/row_request_otp_number6"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/row_request_otp_number6"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/shape_oval_circle"
+            android:clickable="true"
+            android:digits="0123456789"
+            android:focusable="true"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/request_otp_btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/shape_rectangle_button_green"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/register_page_ok_title"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/request_otp_number_title_btn" />
+
+    <TextView
+        android:id="@+id/request_otp_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/request_otp_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_otp_btn_ok" />
+
+    <LinearLayout
+        android:id="@+id/request_new_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_otp_timer"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/request_not_get_otp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif"
+            android:text="@string/request_new_otp"
+            android:textColor="@color/purple_500"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".EntryPinPageActivity">
+    <!--Header-->
+    <ImageView
+        android:id="@+id/entry_pin_page_ic_backspace"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_backspace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/entry_pin_page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/entry_pin_page_title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/entry_pin_page_ic_backspace" />
+
+    <!--Entry PIN-->
+    <LinearLayout
+        android:id="@+id/ic_circel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="52dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entry_pin_page_title"
+        tools:ignore="UselessParent">
+        <!--Pin Circle 1-->
+        <ImageView
+            android:id="@+id/circle_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_circle_pin_white" />
+
+        <!--Pin Circle 2-->
+        <ImageView
+            android:id="@+id/circle_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_circle_pin_white" />
+
+        <!--Pin Circle 3-->
+        <ImageView
+            android:id="@+id/circle_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_circle_pin_white" />
+
+        <!--Pin Circle 4-->
+        <ImageView
+            android:id="@+id/circle_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_circle_pin_white" />
+
+        <!--Pin Circle 5-->
+        <ImageView
+            android:id="@+id/circle_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_circle_pin_white" />
+
+        <!--Pin Circle 6-->
+        <ImageView
+            android:id="@+id/circle_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_circle_pin_white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/entry_pin_page_forget_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/entry_pin_page_forget_pin"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_circel"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entry_pin_page_forget_pin"
+        tools:ignore="MissingConstraints">
+
+        <!--Row Pin Number-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!--Row PIN Number 1-->
+            <TextView
+                android:id="@+id/row_pin_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_1"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--Row Pin Number 2-->
+            <TextView
+                android:id="@+id/row_pin_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_2"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--Row Pin Number 3-->
+            <TextView
+                android:id="@+id/row_pin_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_3"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!--Row Pin Number 4-->
+            <TextView
+                android:id="@+id/row_pin_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_4"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--Row Pin Number 5-->
+            <TextView
+                android:id="@+id/row_pin_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_5"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--Row Pin Number 6-->
+            <TextView
+                android:id="@+id/row_pin_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_6"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!--Row Pin Number 7-->
+            <TextView
+                android:id="@+id/row_pin_7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_7"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--Row Pin Number 8-->
+            <TextView
+                android:id="@+id/row_pin_8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_8"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--Row Pin Number 9-->
+            <TextView
+                android:id="@+id/row_pin_9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_9"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!--Row Pin Number (-)  -->
+            <TextView
+                android:id="@+id/row_pin_forget_pin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <!--Row Pin Number 0-->
+            <TextView
+                android:id="@+id/row_pin_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/number_0"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <!--Row Pin Number Clear-->
+            <ImageView
+                android:id="@+id/row_pin_ic_backspace"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                android:fontFamily="sans-serif-medium   "
+                android:padding="14dp"
+                android:src="@drawable/ic_backspace_pin"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--dammy Background Bottom-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/img_flat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_goneMarginBottom="0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

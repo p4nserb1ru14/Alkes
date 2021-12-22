@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Alkes</string>
+    <string name="intro_page_title1">Temukan Layanan Jasa Service Alat Kesehatan diseluruh Indonesia</string>
+    <string name="intro_page_title2">Dengan dukungan teknisi yang handal dan berpengalaman kami siap memberikan pelayanan terbaik untuk Anda</string>
+    <string name="intro_page_title3">Kamu Sebagai Apa?</string>
+    <string name="intro_page_title4">Penyedia Service</string>
+    <string name="intro_page_title5">Penggguna Service</string>
+    <string name="register_title">Registrasi</string>
+    <string name="number_phone_title">Nomer Telepon</string>
+    <string name="entry_number_page_btn_next">Lanjut</string>
+    <string name="register_page_full_name">Nama Lengkap</string>
+    <string name="register_page_email">Alamat Email</string>
+    <string name="register_page_entry_pin">PIN</string>
+    <string name="register_page_confirm_entry_pin">Konfirmasi PIN</string>
+    <string name="register_page_ok_title">OK</string>
+    <string name="register_page_pin_confrim_title">Kedua PIN harus cocok</string>
+    <string name="request_otp_verif_titile">Verifikasi</string>
+    <string name="request_otp_number_titile">Cek pesan SMS kamu, kami akan mengirim kode OTP</string>
+    <string name="request_otp_number2_titile">087878300205</string>
+    <string name="request_not_get_otp">Tidak dapat kode OTP?</string>
+    <string name="request_new_otp">Kirim ulang</string>
+    <string name="request_otp_time">00:30</string>
+    <string name="login_page_title">Selamat Datang di Aplikasi Layanan Jasa Service Alat Kesehatan</string>
+    <string name="login_page_btn_login">Login</string>
+    <string name="login_page_btn_register">Registrasi</string>
+    <string name="entry_pin_page_title">Masukan PIN</string>
+    <string name="entry_pin_page_forget_pin">Lupa PIN?</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_0">0</string>
+    <string name="forget_pin_title">Lupa PIN</string>
+    <string name="new_pin_des">PIN Baru Anda harus berbeda dari PIN yang digunakan sebelumnya</string>
+    <string name="reset_buff">Reset PIN</string>
+    <string name="create_new_pin">Buat PIN Baru</string>
+    <string name="dashboard_page_title">Home</string>
+    <string name="dashboard_page_des1">Berbagai macam Service Alat Kesehatan</string>
+    <string name="dashboard_page_des2">"Dengan dukungan teknisi yang handal dan berpengalaman kami siap memberikan pelayanan terbaik untuk Anda. "</string>
+    <string name="dashboard_page_des3">Tes COVID-19 dulu yuk</string>
+    <string name="dashboard_page_des4">Jangan sampai perjalananmu batal karena lupa Tes COVID-19! Temukan jenis Tes yang pas di sini.</string>
+    <string name="home">Home</string>
+    <string name="service">Service</string>
+    <string name="order">Pesananmu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_service_titile">Service Alat Kesehatan</string>
+    <string name="login_service_des">Kami melayani jasa service alkes untuk seluruh wilayah Indonesia. Dengan dukungan teknisi yang handal dan berpengalaman kami siap memberikan pelayanan terbaik untuk Anda</string>
+    <string name="login_service_from_title">Isi Form berikut dan kami akan merekomendasikan  Teknisi terbaik untuk membantu Anda</string>
+    <string name="login_service_name_produk">Nama Produk</string>
+    <string name="login_service_kategori_produk">Kategori Produk</string>
+    <string name="login_service_complaint">Kerusakan/Keluhan</string>
+    <string name="login_service_location">Set Lokasi Anda</string>
+    <string name="login_home_stethocsope_title">Stethocsope</string>
+    <string name="login_home_unit_dental_title">Unit Dental</string>
+    <string name="login_home_glucometer_title">Glucometer</string>
+    <string name="login_home_tensiometer_title">Tensiometer</string>
+    <string name="login_home_microscope_title">Microscope</string>
+    <string name="login_home_wheelchair_title">Wheelchair</string>
+    <string name="login_home_strecther_title">Strecther</string>
+    <string name="login_home_lifeline_title">Alat Lifeline</string>
+    <string name="sukses">Berhasil</string>
+    <string name="sukses_des">PIN Baru Anda berhasil dibuat. Silahkan untuk melakukan login</string>
+    <string name="sukses_pin_page_ok">OK</string>
+    <string name="login_service_upload_image">Upload Foto Bareng</string>
+    <string name="login_service_btn_find">Cari Teknisi</string>
+    <string name="kategori_page_title">Kategori Produk</string>
+    <string name="kategori_page_find_title">Cari Kategori</string>
+    <string name="set_location_title">Set Lokasi Anda</string>
+    <string name="set_location_address">Jl.Kelud Raya No.32 Semarang</string>
+    <string name="set_location_address_des">Jl.Kelud Raya No.32, Petompon,  Gajahmungkur Kota Semarang, 50008 Jawa Tengah</string>
+    <string name="add_note">Tambah Catatan...</string>
+    <string name="servise_upload_image_title">Upload Foto/Video</string>
+    <string name="upload_image_form_galeri_title">Ambil Melalui Galeri</string>
+    <string name="upload_image_form_camera_title">Ambil Melalui Kamera</string>
+    <string name="bergransi">Rp500.000</string>
+    <string name="bergransi_title">Bergaransi</string>
+    <string name="bersertifikat_title">Bersertifikat</string>
+    <string name="reting_title">4.0 - 4.5 Rating </string>
+    <string name="tidak_bersertifikat_title">Tidak Bersertifikat</string>
+    <string name="reting2_title">2.5 - 3.5 Rating</string>
+    <string name="bergransi2">Rp250.000</string>
+    <string name="payment_page_des">Harga di atas hanya untuk Biaya Layanan Jasa belum
+termasuk harga jika terjadi pergantian Sparepart</string>
+    <string name="methode_payment_title">Metode Pembayaran</string>
+    <string name="payment_page_wallet">Pilih metode pembayaranmu</string>
+    <string name="payment_page_inbox_title">Pesan</string>
+    <string name="payment_page_total_payment">Rp500.000</string>
+    <string name="choose_payment_methode_page_title">Pilih Metode Pembayaran</string>
+    <string name="content1">Tunai</string>
+    <string name="radio_content">Siapin uang yang pas ya, biar ga usah repot  nungguin kembalian</string>
+    <string name="content2">AlkesPay</string>
+    <string name="radio_content_saldo">Saldomu Rp1.500.000</string>
+    <string name="reting_title2">4.5</string>
+    <string name="distance_rute_title">0.5 km dari lokasi Anda</string>
+    <string name="nama_profil">Muhammad Agus Luthfi</string>
+    <string name="rute_location_title">Hai, Kami menemukan Teknisi terbaik untuk Anda</string>
+    <string name="rute_location_btn_telpon_title">Telepon</string>
+    <string name="rute_location_btn_chat_title">chat</string>
+    <string name="teknisi_name">Muhammad Agus Luthfi</string>
+    <string name="chat_teknisi_content_1">Selamat Siang Bapak, Perkenalkan saya Agus dari Teknisi MedicalIndo</string>
+    <string name="chat_user_content_1">Hallo Selamat Siang juga Bapak Agus, Saya Malvino pak, Kira kira bisa segera sampai ditujuan jam berapa ya pak?</string>
+    <string name="chat_teknisi_content_2">Baik Bapak, ditunggu waktunya sebentar Bapak, Saat ini saya sedang mempersiapkan segala  kebutuhan alat untuk perbaikan nanti. Terimakasih</string>
+    <string name="chat_user_content_2">Baik, Nanti saya diinfokan lagi ya. soalnya saya ada sedikit keperluan mendadak dengan manajer. Terimakasih pak agus</string>
+    <string name="teknisi_chat_page_btn_title">Tulis Pesan...</string>
+    <string name="txt_fragment_order_aktif">Pesanan Aktif</string>
+    <string name="txt_calender">23-06-2021 12:30 WIB</string>
+    <string name="txt_medkit">Infus Set, Alat Lifeline</string>
+    <string name="txt_proses">Proses</string>
+    <string name="txt_detail_title">Detail Pesanan</string>
+    <string name="txt_no_id">#090087878300205</string>
+    <string name="txt_title2">Teknisi</string>
+    <string name="txt_address">Jl. Simongan No.129, Bongsari, Kec.  Semarang Barat, Kota Semarang,  Jawa Tengah 50148</string>
+    <string name="txt_title_methode_buying">Methode Pembayaran</string>
+    <string name="txt_tunai">Tunai</string>
+    <string name="txt_layanan">Layanan Service</string>
+    <string name="txt_biaya">Biaya Layanan</string>
+    <string name="des_layanan">Infus Set, Alat Lifeline</string>
+    <string name="harga">Rp500.000</string>
+    <string name="txt_keluhan">Kerusakan/Keluhan</string>
+    <string name="txt_des">alat kesehatan teknologi menengah misalnya infant warmer dengan CPAP yang digunakan untuk pelayanan kegawatdaruratan dan observasi pasien bayi, mengalami kerusakan tidak panas padahal sudah dinyalakan dan disetting, terdapat kode error E-22</string>
+    <string name="txt_total_harga">Total Pembayaran</string>
+    <string name="txt_cancel">Batalkan Pesanan</string>
+    <string name="txt_chat">Chat Yuk</string>
+    <string name="txt_title_home_service">Total Pendapatan</string>
+    <string name="rp_hasil">Rp3.547.000</string>
+    <string name="txt_history">History</string>
+    <string name="txt_wallet">Tarik epay</string>
+    <string name="txt_name">M Agus Luthfi</string>
+    <string name="txt_spinner">Sedang Mencari Pesanan</string>
+    <string name="txt_jumlah_pesanan">Jumalah Pesanan Selesai</string>
+    <string name="hari">Hari ini</string>
+    <string name="number2">2</string>
+    <string name="txt_minggu">Minggu Ini</string>
+    <string name="number_13">13</string>
+    <string name="txt_bulan">Bulan Ini</string>
+    <string name="number_34">34</string>
+    <string name="txt_btn_home_service">Lihat Detail Perhitungan</string>
+    <string name="txt_point">Point Anda</string>
+    <string name="txt_hasil_point">0 Point</string>
+    <string name="txt_need_point">Anda Butuh</string>
+    <string name="txt_for_bonus">Untuk Bonus</string>
+    <string name="txt_for_bonus_point">Rp40.000</string>
+    <string name="txt_need_point_now">4 Point</string>
+    <string name="txtBtnLihatBonus">Lihat Bonus</string>
+    <string name="txtContent1"><![CDATA[Peralatan Kimia Klinik & Toksikologi Klinik]]></string>
+
+    <string-array name="planets_array">
+        <item>Kategori Produk</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="Departments">
+        <item>Sedang Mencari Pesanan</item>
+        <item>Body Interior</item>
+        <item>Chassis</item>
+        <item>EESE</item>
+        <item>Powertrain</item>
+        <item>Vehicle Engineering</item>
+        <item>Other</item>
+    </string-array>
+</resources>

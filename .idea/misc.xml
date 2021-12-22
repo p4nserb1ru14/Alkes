@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable-v23/img_circel_stethocsope.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable-v24/shape_oval_circle_rute_location.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable-v24/shape_oval_circle_service_upload.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable-v24/shape_rectangle_achisment_line_green.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable-v24/shape_rectangle_box_chat_user_green.xml" value="0.403125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable-v24/shape_rectangle_find_kategori_abu.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/backgraoud_intro_page.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/default_dot.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/ic_backspace.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/ic_circel_pin_black.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/ic_circel_pin_red.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/ic_circle_pin_white.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/ic_circle_transparent.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/ic_login_home_rapid_tes.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/img_circel_stethocsope.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/img_login_logo_home.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/line.xml" value="0.3758974358974359" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/line_white.xml" value="0.30928270042194095" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/radio_button_selector.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/selected_dot.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_oval_circle.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_oval_circle_menu.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_oval_circle_service_upload.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_abu.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_achisment_line_abu_abu.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_achisment_line_green.xml" value="0.403125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_box_chat_teknisi_green.xml" value="0.403125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_button_green.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_button_green_12.xml" value="0.3758974358974359" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_button_green_high.xml" value="0.30928270042194095" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_button_green_maron.xml" value="0.30928270042194095" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_button_line_green.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_button_line_red.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_find_kategori_abu.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_green.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_line_green.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_sukses_white.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_rectangle_white.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/shape_white.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/spinner.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/spinner_enabled.xml" value="0.2125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/style_divider_vertical.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/drawable/tab_selector.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout-v23/activity_login_home_page.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_choose_payment_method_page.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_dashboard_page.xml" value="0.5" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_detail_order.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_entry_number_page.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_entry_pin_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_forget_pin_page.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_home_service.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_intro_page.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_kategori_page.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_login_home_page.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_login_page.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_login_service_page.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_main.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_menu_order.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_new_pin_page.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_next_payment_page.xml" value="0.3" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_payment_page.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_register_page.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_request_otp.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_rute_location.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_service_upload_image.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_set_location.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_sukses_pin_page.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/activity_teknisi_chat_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/coba.xml" value="0.3" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/fragment_home.xml" value="0.3" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/fragment_login_home_page_img1.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/fragment_order.xml" value="0.3" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/fragment_order_aktif.xml" value="0.3692708333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/fragment_riwayat_order.xml" value="0.3692708333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/fragment_service.xml" value="0.3" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/layout/fragment_spinner_adapter.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Alkes/app/src/main/res/menu/bottom_nav.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="android.annotation.SuppressLint" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.38697916666666665" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
